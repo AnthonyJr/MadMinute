@@ -1,0 +1,20 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: 'chalkzone';
+    src: url('../fonts/chalk.eot');
+    src: url('../fonts/chalk.eot') format('embedded-opentype'),
+         url('../fonts/chalk.woff2') format('woff2'),
+         url('../fonts/chalk.woff') format('woff'),
+         url('../fonts/chalk.ttf') format('truetype'),
+         url('../fonts/chalk.svg#chalk') format('svg');
+}
+
+@font-face {
+    font-family: 'LateRegular';
+    src: url('../fonts/LateRegular.eot');
+    src: url('../fonts/LateRegular.eot') format('embedded-opentype'),
+         url('../fonts/LateRegular.woff2') format('woff2'),
+         url('../fonts/LateRegular.woff') format('woff'),
+         url('../fonts/LateRegular.ttf') format('truetype'),
+         url('../fonts/LateRegular.svg#LateRegular') format('svg');
+}

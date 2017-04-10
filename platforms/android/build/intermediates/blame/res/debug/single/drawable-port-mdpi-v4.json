@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/SnowMan/Documents/MadMinute/platforms/android/build/intermediates/res/merged/debug/drawable-port-mdpi-v4/screen.png",
+        "source": "/Users/SnowMan/Documents/MadMinute/platforms/android/res/drawable-port-mdpi/screen.png"
+    },
+    {
+        "merged": "/Users/SnowMan/Documents/ionic/MadMinute/platforms/android/build/intermediates/res/merged/debug/drawable-port-mdpi-v4/screen.png",
+        "source": "/Users/SnowMan/Documents/ionic/MadMinute/platforms/android/res/drawable-port-mdpi/screen.png"
+    }
+]

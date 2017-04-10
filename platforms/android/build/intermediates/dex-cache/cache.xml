@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/SnowMan/Documents/ionic/MadMinute/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2ee4d47d4c5b95ac3e3fb184ac6fa0fd918c5df5">
+        <dex dex="/Users/SnowMan/Documents/ionic/MadMinute/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_bb56de7a21ffc6798f90a49363ef5a31b9b8c10c.jar" />
+    </item>
+
+</items>

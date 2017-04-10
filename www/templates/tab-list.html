@@ -1,0 +1,15 @@
+<ion-view view-title="Games">
+
+	<ion-content class="padding">
+		<ion-list class='ion-header'>
+	      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="item in items" type="item-text-wrap" href="#/tab/list/{{item.name}}">
+	        <img ng-src="{{item.pic}}">
+	        <h2>{{item.name}}</h2>
+	        <p>{{item.lastText}}</p>
+	        <i class="icon ion-chevron-right icon-accessory"></i>
+
+
+	      </ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>

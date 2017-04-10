@@ -1,0 +1,104 @@
+
+<ion-view view-title="Multiplication" ng-app="">
+		<style type="text/css">
+
+
+			* {
+				font-size: 15vw;
+			}
+
+
+			td {
+				height: 28vw;
+				width: 28vw;
+				text-align: center;
+				vertical-align: middle;
+				color:white;
+				font-family: "chalkzone";
+				border: 2px solid white;
+			}
+	  		#numTable {
+	  			width: 100%;
+	  			border-collapse: collapse;
+				border: 2px solid white;
+				margin-top: 28vw;
+
+	  		}
+
+	  		#problem {
+	  			margin-left: 30%;
+				border: 2px solid white;
+	  		}
+
+	  		#problem td {
+	  			width: 15vw;
+	  			height: 15vw;
+	  		}
+
+	  		#score {
+	  			margin-left: 0; 
+	  			height: 20vw;
+	  			width: 20vw;
+	  			font-family: "chalkzone";
+				border: 2px solid white;
+
+	  		}
+
+	  		#center {
+	  			font-family: "chalkzone";
+	  			margin-left: 0vw;
+	  			color:white;
+				border: 2px solid white;
+				width: 18vw;
+
+	  		}
+
+	  		td:active {
+	  			background-color: white;
+	  		}
+
+	  		#bottomline {
+	  			border-bottom: 2px solid white;
+	  		}
+
+
+		</style>
+
+	  <ion-content ng-style="{'background-image':'url({{backgroundImage}})'}">
+
+
+	  <p id="center" ng-bind="score"></p>
+	  <div id="problem">
+
+	  	<table>
+	  		<tr>
+	  			<td></td>
+	  			<td ng-bind="topNum"></td>
+	  		</tr>
+	  		<tr>
+	  			<td>x</td>
+	  			<td id="bottomline" ng-bind="botNum"></td>
+	  		</tr>
+	  	</table>
+	  </div>
+	  	</style>
+	  	<table id="numTable">
+	  		<tr>
+	  			<td class="{{myClass}}" id="button" on-tap="checkNum(topLeft)" ng-bind="topLeft"></td>
+	  			<td class ="{{myClass}}" id="button" on-tap="checkNum(topMiddle)"  ng-bind="topMiddle"></td>
+	  			<td class ="{{myClass}}" id="button" on-tap="checkNum(topRight)"  ng-bind="topRight"></td>
+	  		</tr>
+	  		<tr>
+	  			<td class ="{{myClass}}" id="button" on-tap="checkNum(middleLeft)"  ng-bind="middleLeft"></td>
+	   			<td class ="{{myClass}}" id="button" on-tap="checkNum(middleMiddle)"  ng-bind="middleMiddle"></td>
+	  			<td class ="{{myClass}}" id="button" on-tap="checkNum(middleRight)"  ng-bind="middleRight"></td>
+	  		</tr>
+	  		<tr>
+	  			<td class ="{{myClass}}" id="button" on-tap="checkNum(bottomLeft)"   ng-bind="bottomLeft"></td>
+	   			<td class ="{{myClass}}" id="button" on-tap="checkNum(bottomMiddle)"   ng-bind="bottomMiddle"></td>
+	  			<td class ="{{myClass}}" id="button" on-tap="checkNum(bottomRight)"   ng-bind="bottomRight"></td>
+	  		</tr>
+	  	</table> 
+	  </ion-content>
+</ion-view>
+

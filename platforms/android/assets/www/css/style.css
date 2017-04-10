@@ -1,0 +1,10 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: 'chalkzone';
+    src: url('../fonts/chalk.eot');
+    src: url('../fonts/chalk.eot') format('embedded-opentype'),
+         url('../fonts/chalk.woff2') format('woff2'),
+         url('../fonts/chalk.woff') format('woff'),
+         url('../fonts/chalk.ttf') format('truetype'),
+         url('../fonts/chalk.svg#chalk') format('svg');
+}
